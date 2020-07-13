@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #43BBF2, #324DA8);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    background-color: #ffff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    color: #000;
+    padding: 20px 30px;;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.container div{
+    margin-bottom: 10px;
+}
+
+.container div input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #ffff;
+    border-bottom: 1px solid #000;
+    color: #000;
+}
+
+.container div label{
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container button{
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(to right, #43BBF2, #324DA8);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.container button:hover{
+    cursor:pointer;
+}
+
+p{
+    font-size: 14px;
+    text-align: right;
+}
+
+p a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover{
+    color: #000;
+}
